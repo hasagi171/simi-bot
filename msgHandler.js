@@ -47,6 +47,9 @@ module.exports = msgHandler = async (client, message) => {
 		if (!isGroupMsg && command.startsWith(message.body)) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;32mEXEC\x1b[1;37m]', time, color(msgs(command)), 'from', color(pushname))
         if (isGroupMsg && command.startsWith(message.body)) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;32mEXEC\x1b[1;37m]', time, color(msgs(command)), 'from', color(pushname), 'in', color(formattedTitle))
         if(message.body){
+             client.sendSeen(chatId)
+         }
+	 if(message.body){
         let teks = message.body
         const simi = await get.get(`http://simsumi.herokuapp.com/api?text=${teks}&lang=id`).json()
         client.reply(from, simi.success, id)
