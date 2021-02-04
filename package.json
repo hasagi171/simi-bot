@@ -1,0 +1,43 @@
+{
+  "name": "simi-bot",
+  "version": "1.0.0",
+  "description": "Rafi BOT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "author": "EWH",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@open-wa/wa-automate": "^2.0.27",
+    "@open-wa/wa-decrypt": "^2.0.1",
+    "akaneko": "^3.3.0",
+    "axios": "^0.19.2",
+    "bent": "^7.3.10",
+    "chalk": "^4.1.0",
+    "emoji-regex": "^9.0.0",
+    "fs-extra": "^9.0.1",
+    "got": "^11.5.2",
+    "moment-timezone": "^0.5.31",
+    "nana-api": "^1.1.2",
+    "needle": "^2.5.2",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafi7797/simi-bot.git"
+  },
+  "keywords": [
+    "Whatsapp-Bot"
+  ],
+  "bugs": {
+    "url": "https://github.com/rafi7797/simi-bot.git"
+  },
+  "homepage": "https://github.com/rafi7797/simi-bot.git"
+}
