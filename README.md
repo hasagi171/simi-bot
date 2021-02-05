@@ -46,6 +46,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
+
 This project is [GNU General Public License v3.0](https://github.com/SomnathDas/Whatsapp-Botto-Re/blob/master/LICENSE) licensed.
 
 ***
